@@ -1,7 +1,7 @@
             -- // Cheat
             local CheatTable = {
-                Library = loadstring(syn.request({Url = "https://gist.githubusercontent.com/notportal/eec5ea37f639f676bf4abd43e1d38952/raw/9baf873ecc594cb7d14e8afdcfd5083f57fe6b50/hyphon.lua"; Method = "GET"}).Body)();
-                Visuals = loadstring(syn.request({Url = "https://gist.githubusercontent.com/notportal/95f7cdb3fce03395666aa3bd882c9e88/raw/cda5044ae16bd2b5c6607c6977e33ce75c0680c5/pf_esp.lua"; Method = "GET"}).Body)();
+                Library = loadstring(fluxus.request({Url = "https://gist.githubusercontent.com/notportal/eec5ea37f639f676bf4abd43e1d38952/raw/9baf873ecc594cb7d14e8afdcfd5083f57fe6b50/hyphon.lua"; Method = "GET"}).Body)();
+                Visuals = loadstring(fluxus.request({Url = "https://gist.githubusercontent.com/notportal/95f7cdb3fce03395666aa3bd882c9e88/raw/cda5044ae16bd2b5c6607c6977e33ce75c0680c5/pf_esp.lua"; Method = "GET"}).Body)();
                 Connections = {};
                 Measurements = {};
             };
